@@ -1,0 +1,47 @@
+# OS Files
+Thumbs.db
+db.files
+desktop.ini
+.DS_Store
+
+# IDE and Editor configurations
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*~
+
+# Local environment & secrets
+.env
+.env.local
+.env.*.local
+*.log
+
+# Node dependencies (in case npm is initialized later)
+node_modules/
+dist/
+.npm/
+
+# Local Python Server artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+venv/
+ENV/
+
+# Local Netlify Deploy script and output
+deploy_to_netlify.py
+deploy_to_netlify.bat
+live_deployment_url.txt
+
+# Local workspace utility scripts
+push_to_github.bat
+run_server.bat
+reset_and_force_push.bat
+
